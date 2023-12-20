@@ -146,6 +146,7 @@ const RTokenCard = ({ token, ...props }: Props) => {
               mr={3}
               medium
               variant="muted"
+              sx={{ transition: 'width .2s ease' }}
             >
               Stake RSR{' '}
               {!!token.stakingApy && `- ${token.stakingApy.toFixed(1)}% APY`}
