@@ -31,7 +31,7 @@ const Tab = ({
       boxSizing: 'border-box',
       alignItems: 'center',
       borderBottom: '2px solid',
-      borderColor: selected ? 'text' : 'contentBackground',
+      borderColor: selected ? 'text' : 'backgroundNested',
       fontSize: 3,
       fontWeight: selected ? 500 : 400,
     }}
@@ -71,7 +71,7 @@ const BridgeHeader = () => {
         sx={{
           position: 'relative',
           borderBottom: '1px solid',
-          borderColor: 'darkBorder',
+          borderColor: 'border',
         }}
       >
         <Tab
@@ -84,13 +84,7 @@ const BridgeHeader = () => {
           selected={!isWrapping}
           onClick={() => setWrapping(false)}
         />
-        <Button
-          ml="auto"
-          variant="transparent"
-          sx={{ borderColor: 'darkBorder' }}
-          small
-          onClick={scroll}
-        >
+        <Button ml="auto" variant="transparent" small onClick={scroll}>
           <Trans>Need help?</Trans>
         </Button>
       </Box>

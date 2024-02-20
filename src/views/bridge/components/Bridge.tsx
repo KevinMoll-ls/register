@@ -21,10 +21,10 @@ const Bridge = () => (
     }}
   >
     <BridgeHeader />
-    <Box p={4} sx={{ borderBottom: '1px solid', borderColor: 'darkBorder' }}>
+    <Box p={4} sx={{ borderBottom: '1px solid', borderColor: 'border' }}>
       <BridgeInput />
       <Box variant="layout.verticalAlign">
-        <Divider sx={{ flexGrow: 1, borderColor: 'darkBorder' }} />
+        <Divider sx={{ flexGrow: 1, borderColor: 'border' }} />
         <Box mx={4} my={3}>
           <ArrowDown size={24} color="#666666" />
         </Box>
