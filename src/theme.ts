@@ -464,7 +464,7 @@ export const theme: Theme = {
       ...baseButton,
       backgroundColor: 'transparent',
       border: '1px solid',
-      borderColor: 'darkBorder',
+      borderColor: 'inputBorder',
       color: 'text',
       '&:hover': {
         borderColor: 'text',

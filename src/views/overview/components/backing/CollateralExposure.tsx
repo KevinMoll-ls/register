@@ -147,7 +147,7 @@ const CollateralDetails = ({
             <Button
               mr="3"
               small
-              variant="bordered"
+              variant="transparent"
               onClick={() =>
                 window.open(
                   'https://reserve.org/protocol/introduction/',
