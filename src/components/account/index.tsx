@@ -109,7 +109,13 @@ const Account = () => {
                     >
                       <Power size={16} />
                     </Box>
-                    <Text sx={{ display: ['none', 'block'] }}>
+                    <Text
+                      sx={{
+                        fontSize: 1,
+
+                        display: ['none', 'block'],
+                      }}
+                    >
                       <Trans>Connect</Trans>
                     </Text>
                   </Button>
