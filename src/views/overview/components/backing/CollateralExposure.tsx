@@ -81,8 +81,11 @@ const CollateralDetails = ({
         cursor: 'pointer',
         position: 'relative',
         alignItems: 'center',
-        backgroundColor: expanded ? 'border' : '',
-        '&:hover': { backgroundColor: 'border' },
+        backgroundColor: expanded ? 'inputBackground' : '',
+        borderBottom: '1px solid',
+        borderColor: expanded ? 'inputBorder' : 'border',
+        ':last-of-type': { borderBottom: 'none' },
+        '&:hover': { backgroundColor: 'inputBackground' },
       }}
       onClick={() => setExpanded(!expanded)}
     >
@@ -210,9 +213,9 @@ const CollateralList = () => {
     <Box
       sx={{
         '>div': {
-          borderBottom: '1px solid',
-          borderColor: 'border',
-          ':last-of-type': { borderBottom: 'none' },
+          // borderBottom: '1px solid',
+          // borderColor: 'border',
+          // ':last-of-type': { borderBottom: 'none' },
         },
       }}
     >
