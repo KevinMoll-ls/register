@@ -17,7 +17,7 @@ const TokenSelector = () => {
 
   return (
     <Box
-      ml={1}
+      ml={'2px'}
       sx={{
         backgroundColor: !!selectedRToken ? 'backgroundNested' : 'transparent',
         boxShadow: !!selectedRToken
