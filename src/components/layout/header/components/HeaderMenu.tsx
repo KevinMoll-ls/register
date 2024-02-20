@@ -90,7 +90,7 @@ const HeaderMenu = () => {
                   : 'none',
                 width: [40, 'auto'],
                 ':hover': {
-                  backgroundColor: 'backgroundNested',
+                  backgroundColor: 'inputBorder',
                 },
               }}
               px={2}
