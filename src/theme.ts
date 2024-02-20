@@ -106,10 +106,10 @@ export const colors = {
   accent: '#2150A9',
   accentInverted: '#2150A9', // Change to white on darkmode
   rBlueLight: '#DBE3F1',
-  border: '#f2f2f2',
+  border: '#E5E5E5',
   borderFocused: '#F8EDDA',
   borderSecondary: '#E0D5C7',
-  darkBorder: '#E5E5E5',
+  darkBorder: '#E0D5C7',
   inputBorder: '#D5D5D5',
   info: '#20678E',
   infoBG: 'rgba(32, 103, 142, 0.15)',
@@ -459,6 +459,7 @@ export const theme: Theme = {
         backgroundColor: 'focusedBackground',
       },
     },
+
     transparent: {
       ...baseButton,
       backgroundColor: 'transparent',
