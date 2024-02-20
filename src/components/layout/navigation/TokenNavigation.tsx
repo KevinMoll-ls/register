@@ -183,7 +183,7 @@ const TokenNavigation = () => {
           { label: t`Intro`, id: 'intro' },
           { label: t`Backing & Risk`, id: 'backing' },
           { label: t`Earn`, id: 'earn' },
-          // { label: t`Revenue & Usage`, id: 'revenue' },
+          { label: t`Historical metrics`, id: 'historic' },
           { label: t`Transactions`, id: 'transactions' },
         ],
       },
@@ -237,7 +237,7 @@ const TokenNavigation = () => {
         position: ['fixed', 'fixed', 'relative'],
         bottom: [0, 0, undefined],
         flexShrink: 0,
-        // zIndex: 1,
+        zIndex: 1,
         backgroundColor: ['background', 'background', 'none'],
       }}
     >
@@ -248,7 +248,7 @@ const TokenNavigation = () => {
           display: ['flex', 'flex', 'block'],
           justifyContent: ['space-evenly', 'space-evenly', 'none'],
         }}
-        padding={[2, 3]}
+        padding={[1, 1, 1, 3]}
       >
         {navigation.map((props) => (
           <NavItem key={props.route} {...props} />
