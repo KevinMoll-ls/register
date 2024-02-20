@@ -65,7 +65,7 @@ const Deploy = () => {
 
   return (
     <Box variant="layout.wrapper">
-      <Layout>
+      <Layout sx={{ justifyContent: 'start' }}>
         <FormProvider {...form}>
           <NavigationSidebar />
           <RTokenSetup governance={governance} />

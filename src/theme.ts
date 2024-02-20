@@ -405,6 +405,13 @@ export const theme: Theme = {
       padding: 3,
       backgroundColor: 'contentBackground',
     },
+    form: {
+      borderRadius: borderRadius.boxes,
+      padding: 3,
+      border: '3px solid',
+      borderColor: 'borderFocused',
+      backgroundColor: 'contentBackground',
+    },
     inner: {
       borderRadius: borderRadius.inputs,
       padding: 0,

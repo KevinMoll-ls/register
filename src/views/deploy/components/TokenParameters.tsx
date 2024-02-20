@@ -7,7 +7,7 @@ import TokenForm from './TokenForm'
  * Display token forms
  */
 const TokenParameters = (props: BoxProps) => (
-  <Card p={4} {...props}>
+  <Card p={4} {...props} variant="cards.form">
     <Text variant="title">
       <Trans>Basics</Trans>
     </Text>
