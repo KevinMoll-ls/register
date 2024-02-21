@@ -128,7 +128,7 @@ const About = () => (
         <Trans>On Ethereum & Base</Trans>
       </Text>
     </Box>
-    <Box sx={{ maxWidth: 900, textAlign: 'center' }} mt={[2, 3]}>
+    <Box sx={{ maxWidth: 900, textAlign: 'center' }} mt={[2, 4]}>
       <Text
         variant="title"
         sx={{
@@ -140,7 +140,7 @@ const About = () => (
       >
         <Trans>A new path to better money, already set in motion</Trans>
       </Text>
-      <Text as="p" sx={{ fontSize: [2, 3] }} px={[2, 0]} mt={[3, 5]}>
+      <Text as="p" sx={{ fontSize: [2, 3] }} px={[2, 0]} mt={[3, 4]}>
         <Trans>
           Reserve Protocol’s RToken Factory Contracts: A platform for creating
           currencies backed by an array of ERC20 collateral. Use Register to
