@@ -81,8 +81,7 @@ const CollateralsChart = () => {
   }, [JSON.stringify(basketDist), rToken?.address])
   return (
     <CollateralPieChart
-      mb={4}
-      mt={2}
+      my={3}
       data={pieData}
       logo={rToken?.logo ?? ''}
       staked={distribution?.staked ?? 0}

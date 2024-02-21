@@ -30,11 +30,10 @@ const TokenMetrics = () => {
       <Text sx={{ display: 'block' }}>
         <Trans>Total Market Cap</Trans>
       </Text>
-
       <Text variant="accent" as="h1" sx={{ fontSize: 6 }}>
         ${formatCurrency(data?.supply ?? 0, 0)}
       </Text>
-      <Box variant="layout.verticalAlign">
+      <Box mb={3} mt={2} variant="layout.verticalAlign">
         <StakedIcon />
         <Text ml={2}>
           <Trans>Stake pool USD value:</Trans>

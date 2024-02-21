@@ -242,6 +242,7 @@ const Header = () => {
     <Box
       variant="layout.verticalAlign"
       p={4}
+      mb={[3, 0]}
       sx={{
         borderBottom: '1px solid',
         borderColor: 'border',
@@ -253,6 +254,7 @@ const Header = () => {
         <Trans>Collateral Exposure</Trans>
       </Text>
       <TabMenu
+        mt={[3, 0]}
         active={backingType}
         items={backingOptions}
         small
