@@ -20,6 +20,7 @@ const BasketSetup = ({ startIndex = 2 }) => {
       </SectionWrapper>
       <SectionWrapper navigationIndex={startIndex + 1}>
         <Card
+          variant="cards.form"
           mt={4}
           p={4}
           sx={{ border: '3px solid', borderColor: 'borderFocused' }}
