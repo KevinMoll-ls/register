@@ -134,10 +134,10 @@ const BridgeInput = () => (
   <Box
     sx={{
       borderRadius: borderRadius.inputs,
-      border: '3px solid',
-      borderColor: 'borderFocused',
+      border: '1px solid',
+      borderColor: 'inputBorder',
       backgroundColor: 'focusedBackground',
-      boxShadow: 'boxShadow',
+      boxShadow: '0px 6px 16px rgba(0,0,0,0.05)',
       flexShrink: 0,
     }}
   >
@@ -145,7 +145,7 @@ const BridgeInput = () => (
       sx={{
         borderBottom: '1px solid',
         flexWrap: 'wrap',
-        borderColor: 'border',
+        borderColor: 'inputBorder',
       }}
       p={3}
     >

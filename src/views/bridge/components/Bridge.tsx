@@ -14,7 +14,7 @@ const Bridge = () => (
       backgroundColor: 'backgroundNested',
       position: 'relative',
       height: 'fit-content',
-      width: ['100vw', 525],
+      width: ['100vw', 514],
       boxShadow: ['none', boxShadow],
       border: ['none', '3px solid'],
       borderColor: ['none', 'borderFocused'],
