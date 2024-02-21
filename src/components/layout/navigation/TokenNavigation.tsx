@@ -119,10 +119,14 @@ const NavContent = ({
         sx={{
           textDecoration: 'none',
           backgroundColor: isActive ? 'contentBackground' : 'background',
-          border: '1px solid',
-          borderColor: isActive ? 'borderFocused' : 'background',
+          // border: '1px solid',
+          // borderColor: isActive ? 'borderFocused' : 'background',
           borderRadius: '8px',
-          color: isActive ? 'accent' : 'text',
+          color: isActive ? 'accent' : 'secondaryText',
+          ':hover': {
+            backgroundColor: isActive ? '' : 'border',
+            color: isActive ? 'accent' : 'text',
+          },
         }}
       >
         <Flex
