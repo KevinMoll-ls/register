@@ -122,10 +122,10 @@ const NavContent = ({
           // border: '1px solid',
           // borderColor: isActive ? 'borderFocused' : 'background',
           borderRadius: '8px',
-          color: isActive ? 'accent' : 'secondaryText',
+          color: isActive ? 'text' : 'secondaryText',
           ':hover': {
             backgroundColor: isActive ? '' : 'border',
-            color: isActive ? 'accent' : 'text',
+            color: isActive ? 'text' : 'text',
           },
         }}
       >
