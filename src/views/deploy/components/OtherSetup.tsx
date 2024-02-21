@@ -7,7 +7,7 @@ const OtherSetup = (props: BoxProps) => (
     <Text variant="title">
       <Trans>Other parameters</Trans>
     </Text>
-    <Divider my={4} mx={-4} />
+    <Divider my={4} mx={-4} sx={{ borderColor: 'darkBorder' }} />
     <OtherForm />
   </Card>
 )
