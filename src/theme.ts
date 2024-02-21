@@ -189,8 +189,8 @@ export const theme: Theme = {
       color: 'secondaryText',
     },
     title: {
-      fontSize: 4,
-      fontWeight: 700,
+      fontSize: 3,
+      fontWeight: 500,
       display: 'block',
     },
     sectionTitle: {
