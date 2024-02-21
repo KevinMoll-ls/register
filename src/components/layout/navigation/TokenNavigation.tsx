@@ -140,7 +140,10 @@ const NavContent = ({
           {icon}
         </Flex>
         <Text
-          sx={{ fontWeight: 700, display: ['none', 'none', 'block'] }}
+          sx={{
+            fontWeight: isActive ? 700 : 500,
+            display: ['none', 'none', 'block'],
+          }}
           ml="2"
         >
           {label}
