@@ -128,8 +128,8 @@ const RegisterHelp = () => {
       <Button
         variant="hover"
         small
-        py={2}
-        mr={[1, 0]}
+        py={1}
+        mr={[1, 2]}
         onClick={() => setVisible(!isVisible)}
         px={{ borderRadius: borderRadius.inner }}
       >
