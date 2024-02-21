@@ -47,7 +47,7 @@ const AppHeader = () => {
         >
           <Brand mr={[2, 4]} />
           <ThemeColorMode
-            ml="4"
+            ml="0"
             sx={{
               display: ['none', 'flex'],
             }}
