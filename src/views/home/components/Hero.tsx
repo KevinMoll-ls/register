@@ -168,7 +168,7 @@ const Hero = () => (
         position: 'relative',
         maxWidth: '95em',
       }}
-      pt={[5, 5]}
+      pt={[5, 4]}
       mt={[0, 5]}
       pb={0}
       px={[2, 3]}
