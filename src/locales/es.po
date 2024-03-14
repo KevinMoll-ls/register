@@ -122,7 +122,7 @@ msgid "Actionable accumulated revenue"
 msgstr ""
 
 #: src/components/rtoken-setup/basket/CustomCollateral.tsx:139
-#: src/views/governance/views/proposal/components/ItemPreview.tsx:42
+#: src/views/governance/views/proposal/components/ItemPreview.tsx:43
 #: src/views/governance/views/proposal/components/ListItemPreview.tsx:21
 #: src/views/governance/views/proposal/components/ProposedRevenueSplitPreview.tsx:127
 msgid "Add"
@@ -357,6 +357,10 @@ msgstr ""
 msgid "Batch Auction length (s)"
 msgstr ""
 
+#: src/views/governance/views/proposal/components/TraderImplementationProposal.tsx:14
+msgid "Batch trade"
+msgstr ""
+
 #: src/views/tokens/Tokens.tsx:24
 msgid "Be aware that anyone can create an RToken that ends up on this list. We don't apply any standards beyond what can be done with the Reserve Protocol."
 msgstr ""
@@ -442,7 +446,7 @@ msgid "Chain"
 msgstr ""
 
 #: src/views/governance/components/AccountVotes.tsx:90
-#: src/views/governance/views/proposal/components/ItemPreview.tsx:113
+#: src/views/governance/views/proposal/components/ItemPreview.tsx:120
 msgid "Change"
 msgstr ""
 
@@ -582,6 +586,10 @@ msgstr ""
 msgid "Contract Addresses"
 msgstr ""
 
+#: src/views/governance/views/proposal/components/ContractUpgradesPreview.tsx:30
+msgid "Contract upgrades"
+msgstr ""
+
 #: src/views/governance/views/proposal-detail/components/ProposalDetailNavigation.tsx:7
 msgid "Contracts"
 msgstr ""
@@ -616,7 +624,7 @@ msgstr ""
 #: src/views/governance/views/proposal-detail/components/ProposalDetailStats.tsx:47
 #: src/views/governance/views/proposal-detail/components/ProposalDetailStats.tsx:90
 #: src/views/governance/views/proposal-detail/components/ProposalDetailStats.tsx:114
-#: src/views/governance/views/proposal/components/ItemPreview.tsx:82
+#: src/views/governance/views/proposal/components/ItemPreview.tsx:83
 #: src/views/staking/components/overview/StakingStats.tsx:61
 #: src/views/staking/components/overview/StakingStats.tsx:71
 #: src/views/staking/components/overview/StakingStats.tsx:81
@@ -738,7 +746,7 @@ msgstr ""
 msgid "Details + Roles"
 msgstr ""
 
-#: src/views/governance/views/proposal/components/ItemPreview.tsx:70
+#: src/views/governance/views/proposal/components/ItemPreview.tsx:71
 msgid "Discard"
 msgstr ""
 
@@ -806,6 +814,10 @@ msgstr ""
 
 #: src/components/rtoken-setup/token/BackingForm.tsx:69
 msgid "Dutch Auction length (s)"
+msgstr ""
+
+#: src/views/governance/views/proposal/components/TraderImplementationProposal.tsx:25
+msgid "Dutch trade"
 msgstr ""
 
 #: src/views/issuance/components/issue/IssuanceInfo.tsx:29
@@ -1755,7 +1767,7 @@ msgstr ""
 msgid "Propose new basket"
 msgstr ""
 
-#: src/views/governance/views/proposal/components/ItemPreview.tsx:91
+#: src/views/governance/views/proposal/components/ItemPreview.tsx:96
 msgid "Proposed"
 msgstr ""
 
@@ -1850,7 +1862,7 @@ msgstr ""
 msgid "Redemption throttle rate (%)"
 msgstr ""
 
-#: src/views/governance/views/proposal/components/RegisterProposal.tsx:27
+#: src/views/governance/views/proposal/components/RegisterProposal.tsx:26
 msgid "Register Assets"
 msgstr ""
 
@@ -1878,7 +1890,7 @@ msgstr ""
 msgid "Registering assets"
 msgstr ""
 
-#: src/views/governance/views/proposal/components/RegisterProposal.tsx:37
+#: src/views/governance/views/proposal/components/RegisterProposal.tsx:36
 msgid "Registration of an asset plugin enables the RToken to price an underlying ERC20 token. Where an asset plugin for the underlying token already exists, the existing asset plugin is replaced with the new one."
 msgstr ""
 
@@ -1891,7 +1903,7 @@ msgid "Related Contracts"
 msgstr ""
 
 #: src/components/rtoken-setup/components/RolesEdit.tsx:139
-#: src/views/governance/views/proposal/components/ItemPreview.tsx:42
+#: src/views/governance/views/proposal/components/ItemPreview.tsx:43
 #: src/views/governance/views/proposal/components/ListItemPreview.tsx:21
 #: src/views/governance/views/proposal/components/ProposedRevenueSplitPreview.tsx:127
 msgid "Remove"
@@ -1945,7 +1957,7 @@ msgstr ""
 msgid "Revenue split"
 msgstr ""
 
-#: src/views/governance/views/proposal/components/ItemPreview.tsx:47
+#: src/views/governance/views/proposal/components/ItemPreview.tsx:48
 #: src/views/governance/views/proposal/components/ListItemPreview.tsx:27
 #: src/views/governance/views/proposal/components/ProposedBackupPreview.tsx:82
 #: src/views/governance/views/proposal/components/ProposedBasketPreview.tsx:31
@@ -2527,6 +2539,23 @@ msgstr ""
 msgid "Total RSR staked"
 msgstr ""
 
+#: src/views/governance/views/proposal/components/TraderImplementationProposal.tsx:15
+#: src/views/governance/views/proposal/components/TraderImplementationProposal.tsx:26
+msgid "Trader contract address"
+msgstr ""
+
+#: src/views/governance/views/proposal/components/TraderImplementationProposal.tsx:16
+msgid "Trader contract for batch trades."
+msgstr ""
+
+#: src/views/governance/views/proposal/components/TraderImplementationProposal.tsx:27
+msgid "Trader contract for Dutch trades."
+msgstr ""
+
+#: src/views/governance/views/proposal/components/TraderImplementationProposal.tsx:10
+msgid "Trader implementations"
+msgstr ""
+
 #: src/views/settings/components/BackingInfo.tsx:45
 msgid "Trading delay"
 msgstr ""
@@ -2736,6 +2765,14 @@ msgstr ""
 
 #: src/views/issuance/components/wrapping/WrapTypeToggle.tsx:48
 msgid "Unwrap collaterals"
+msgstr ""
+
+#: src/views/governance/views/proposal/components/ContractUpgrades.tsx:140
+msgid "Upgrade contract implementations to a newer version. This is usually performed for a protocol update or bugfix."
+msgstr ""
+
+#: src/views/governance/views/proposal/components/ContractUpgrades.tsx:125
+msgid "Upgrade contracts"
 msgstr ""
 
 #: src/views/overview/components/RTokenTransactions.tsx:123
