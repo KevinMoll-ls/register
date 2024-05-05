@@ -24,12 +24,20 @@ export const autoRegisterBasketAssetsAtom = atom(true)
 export const isNewBackupProposedAtom = atom(false)
 export const autoRegisterBackupAssetsAtom = atom(true)
 
-export const proposedRolesAtom = atomWithReset({
-  owners: [] as string[],
-  pausers: [] as string[],
-  freezers: [] as string[],
-  longFreezers: [] as string[],
-  guardians: [] as string[],
+export interface Roles {
+  owners: string[]
+  pausers: string[]
+  freezers: string[]
+  longFreezers: string[]
+  guardians: string[]
+}
+
+export const proposedRolesAtom = atomWithReset<Roles>({
+  owners: [],
+  pausers: [],
+  freezers: [],
+  longFreezers: [],
+  guardians: [],
 })
 
 export const revenueSplitChangesAtom = atomWithReset<RevenueSplitChanges>({

@@ -1,10 +1,11 @@
 import styled from '@emotion/styled'
 import { Trans } from '@lingui/macro'
 import { useAtomValue, useSetAtom } from 'jotai'
-import { Box, BoxProps, Button, Flex, Text } from 'theme-ui'
+import { Box, BoxProps, Flex, Text } from 'theme-ui'
 import { isProposalEditingAtom, isProposalValidAtom } from '../atoms'
 import CreateProposalActionIcon from 'components/icons/CreateProposalActionIcon'
 import ProposalPreview from './ProposalPreview'
+import { Button } from 'components'
 
 const Container = styled(Box)`
   height: fit-content;

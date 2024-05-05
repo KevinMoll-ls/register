@@ -3,6 +3,7 @@ import useProposalTx from '../hooks/useProposalTx'
 import ConfirmProposalForm from './ConfirmProposalForm'
 import ConfirmProposalOverview from './ConfirmProposalOverview'
 import SimulateProposal from './SimulateProposal'
+import ProposalSnapshot from './ProposalSnapshot'
 
 const ConfirmProposal = () => {
   const tx = useProposalTx()
@@ -27,6 +28,7 @@ const ConfirmProposal = () => {
       <ConfirmProposalForm addresses={tx.args[0]} calldatas={tx.args[2]} />
       <Container variant="layout.sticky">
         <ConfirmProposalOverview tx={tx} />
+        <ProposalSnapshot />
         <SimulateProposal mt="4" tx={tx} />
       </Container>
     </Grid>
