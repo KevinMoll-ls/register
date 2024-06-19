@@ -36,6 +36,20 @@ const query = gql`
   }
 `
 
+const ANASTASIUS_BSDETH = {
+  id: '0x21fBa52dA03e1F964fa521532f8B8951fC212055',
+  timelockAddress: '0xe664d294824C2A8C952A10c4034e1105d2907F46',
+  name: 'Governor Anastasius',
+  proposalThreshold: '10000',
+  contractAddress: '0x21fBa52dA03e1F964fa521532f8B8951fC212055',
+  quorumDenominator: '100',
+  quorumNumerator: '10',
+  quorumVotes: '5933603586673195820121089',
+  executionDelay: '259200',
+  votingDelay: '172800',
+  votingPeriod: '259200',
+}
+
 const RTokenGovernanceUpdater = () => {
   const rToken = useRToken()
   const setGovernance = useSetAtom(rTokenGovernanceAtom)
@@ -51,6 +65,11 @@ const RTokenGovernanceUpdater = () => {
 
       // Governance is set up
       if (data.governance?.governanceFrameworks?.length) {
+        const governanceFrameworks =
+          rToken?.symbol === 'bsdETH'
+            ? ANASTASIUS_BSDETH
+            : data.governance.governanceFrameworks[0]
+
         // TODO: Multiple governances, currently use 1
         const {
           id,
@@ -64,7 +83,8 @@ const RTokenGovernanceUpdater = () => {
           executionDelay,
           votingDelay,
           votingPeriod,
-        } = data.governance.governanceFrameworks[0]
+        } = governanceFrameworks
+
         setGovernance({
           name,
           proposalThreshold: (+proposalThreshold / 1e6).toString(),
