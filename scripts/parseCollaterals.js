@@ -121,6 +121,7 @@ const wrappedTokenMap = {
   wUSDM: protocols.USDM,
   apxETH: protocols.PXETH,
   aeroUSDCeUSD: protocols.AERODROME,
+  aeroUSDzUSDC: protocols.AERODROME,
 }
 
 // Default: run all collateral chains - you can comment which chain you want to run
