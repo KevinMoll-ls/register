@@ -64,6 +64,9 @@ const poolsMap: Record<number, Record<string, string>> = {
     '7e0661bf-8cf3-45e6-9424-31916d4c7b84': 'sabasusdc',
     '833ec61b-f9e6-46ac-9eff-2785808b2389': 'sabasusdbc',
     '212375c8-694c-4fa5-8b36-05f50c8e61b2': 'wsamm-eusd/usdc',
+    'a05a3eb9-2901-46ed-937e-5f48ea408552': 'wsamm-usdz/usdc',
+    '1b52ab3b-98d5-4951-92d8-97dfca06e62f': 'wvamm-weth/aero',
+    '029c10b3-8399-4a89-818a-935a4cb3e1da': 'wvamm-mog/weth',
   },
   [ChainId.Arbitrum]: {
     'd9c395b9-00d0-4426-a6b3-572a6dd68e54': 'wcusdcv3',
@@ -102,9 +105,7 @@ const CollateralYieldUpdater = () => {
     if (data?.data) {
       const yields: CollateralYieldByChain = {
         [ChainId.Mainnet]: {},
-        [ChainId.Base]: {
-          aeroUSDCeUSD: 10, // TODO: hardcoded
-        },
+        [ChainId.Base]: {},
         [ChainId.Arbitrum]: {
           wusdm: 5, // TODO: hardcoded
         },
