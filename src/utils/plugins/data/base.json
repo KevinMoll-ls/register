@@ -150,10 +150,10 @@
     "underlyingToken": "sAMM-USDz/USDC"
   },
   {
-    "address": "0x5f053DbcF37E31250F15787E1577F7A6A07d486B",
+    "address": "0x1bD9eAEB0eD1aB51dA1Ff8D437892488790bbde7",
     "rewardTokens": ["0x5D09F98B6fA59456E608bD20Ca806140884C3790"],
     "protocol": "AERODROME",
-    "erc20": "0x0DefA46e5e7258c9a776ADd56e6875a9323B9998",
+    "erc20": "0x3712DDCF9aE516dD01042948B76A76901a84CD36",
     "chainlinkFeed": "0x0000000000000000000000000000000000000001",
     "delayUntilDefault": "86400",
     "maxTradeVolume": "1000000",
@@ -166,10 +166,10 @@
     "underlyingToken": "vAMM-WETH/AERO"
   },
   {
-    "address": "0xf8cC32E8159C0bED61f947251d6D07E577D21314",
+    "address": "0x6Ec09BD7d32F1023626AaEa1090e178d81C7701A",
     "rewardTokens": ["0x5D09F98B6fA59456E608bD20Ca806140884C3790"],
     "protocol": "AERODROME",
-    "erc20": "0x7600cDA692679dF4928A883a8F1c5687b2991DF4",
+    "erc20": "0xCcC18B21be01a37ebFa5C932eD09574752F88C15",
     "chainlinkFeed": "0x0000000000000000000000000000000000000001",
     "delayUntilDefault": "86400",
     "maxTradeVolume": "1000000",
