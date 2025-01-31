@@ -1,6 +1,7 @@
 import { Address } from 'viem'
 
-const BASE_ZAP_API_URL = 'https://zapper-api-stage.reserve.org' // TODO: change to prod
+const BASE_ZAP_API_URL =
+  'https://stakeholders-relative-shots-charge.trycloudflare.com' // TODO: change to prod
 
 export type ZapPayload = {
   chainId: number
